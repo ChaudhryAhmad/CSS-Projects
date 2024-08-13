@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .outer{
+  
+  height: 300px;
+  width: 300px;
+  background-color: #000;
+  border-radius: 100%;
+  position: relative;
+}
+
+.b,
+.m,
+.w{
+  position: absolute;
+  color: #fff;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Algerian';
+}
+
+.b{
+  top: 44px;
+  left: 15%;
+  transform: rotate(310deg);
+}
+.m{
+  top: 5px;
+  left: 45%;
+}
+.w{
+  top: 44px;
+  right: 13%;
+  transform: rotate(50deg);
+}
+.inner{
+ position: relative;
+ width: 60%;
+ height: 60%;
+ background-color: #fff;
+top: 20%;
+left: 20%;
+border-radius:100%;
+}
+
+.s1{
+  height: 47%;
+  width: 47%;
+  background-color: aqua;
+  border-radius: 100% 0 0 0;
+}
+
+.s2{
+  height: 47%;
+  width: 47%;
+  position: absolute;
+  background-color: red;
+  border-radius: 0 100% 0 0;
+  right: 0;
+  top: 0;
+}
+
+.s3{
+  height: 47%;
+  width: 47%;
+  background-color: red;
+  position: absolute;
+  border-radius: 0 0 0 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.s4{
+  height: 47%;
+  width: 47%;
+  background-color: red;
+  border-radius: 0 0 100% 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+    </style>
+</head>
+
+<body>
+        <div class="outer">
+            <span class="b">B</span>
+            <span class="m">M</span>
+            <span class="w">W</span>
+           <div class="inner">
+            <div class="shapes s1"></div>
+            <div class="shapes s2"></div>
+            <div class="shapes s3"></div>
+            <div class="shapes s4"></div>
+           </div>
+        </div>
+
+    
+</body>
+
+</html>

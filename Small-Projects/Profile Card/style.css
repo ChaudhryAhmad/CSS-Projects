@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'poppins','san-serif';
+    padding: 0;
+}
+
+.box{
+    background-color: #ccc;
+    height: 60vh;
+    width: 20vw;
+    margin: 100px;
+    border-radius: 10%;
+}
+
+.innerbox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(0, 94, 255);
+    height: 23vh;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+}
+
+.pic{
+    border-radius: 50%;
+    border: 5px double whitesmoke;
+}
+
+.innerbox2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innerbox2 div{
+    text-align: center;
+}
+
+.innerbox3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.same {
+    border-radius: 50%;
+    background-color: aqua;
+    width: 10%;
+    text-align: center;
+}
+
+.f{
+ background-color: #237dea;
+}
+
+.t{
+    background-color: rgb(105, 216, 231);
+}
+
+.i{
+    background-color: #eb2e2e;
+}
+
+.y{
+    background-color: red;
+}
+.bx{
+    text-align: center;
+}
+
+.innerbox4{
+  background-color: #237dea;
+  width: 30%;
+}

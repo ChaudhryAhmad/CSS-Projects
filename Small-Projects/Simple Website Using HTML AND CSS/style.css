@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background-color: #2f3640;
+  height: 85vh;
+}
+
+header nav {
+  width: 100%;
+  background-color: #353b48;
+  height: 15vh;
+  display: flex;
+}
+header nav .codinglab {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2rem;
+  padding-left: 10%;
+  color: #fff;
+  font-weight: bold;
+}
+
+header nav .header ul {
+  height: 100%;
+  width: 660px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .header ul li {
+  list-style-type: none;
+  height: 10vh;
+}
+
+nav .header ul li a {
+  font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  height: 8vh;
+  align-items: center;
+}
+
+nav .header ul li a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+
+main .container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .line {
+  width: 50vw;
+  height: 20vh;
+  margin-top: 20vh;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.container .buttons{
+    height: 10vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.container .buttons .learn{
+  width: 15vw;
+  height: 8vh;
+  color: #fff;
+  text-align: center;
+  padding-top: 9px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+.container .buttons .subscribe{
+    width: 15vw;
+    height: 8vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.container .buttons .learn:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
